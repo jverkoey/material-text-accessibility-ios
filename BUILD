@@ -94,7 +94,7 @@ ios_unit_test_suite(
       ":UnitTestsSwiftLib"
     ],
     minimum_os_version = "9.0",
-    timeout = "short",
+    timeout = "moderate",
     runners = [
         ":IPHONE_7_PLUS_IN_10_3",
         ":IPHONE_X_IN_11_4",
